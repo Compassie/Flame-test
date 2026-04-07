@@ -8,7 +8,7 @@ const STORY_TEXT = `The Eternal Flame. She was born in a struck match — one fl
 // Pre-compute the text layout outside the component for performance
 const storyHandle = prepare(STORY_TEXT, '18px sans-serif');
 
-export default function EternalFlamePage() {
+export default function App() {
   const [containerWidth, setContainerWidth] = useState(0);
 
   // Measure screen on mount and resize
